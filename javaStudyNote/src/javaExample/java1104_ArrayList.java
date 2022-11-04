@@ -1,7 +1,9 @@
 package javaExample;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class java1104_ArrayList {
 
@@ -51,6 +53,27 @@ public class java1104_ArrayList {
 		print(list1, list2); // list1:[0, 2, 4] list2:[AA, B, C]
 		
 		
+		//-----------------------------------------------------------------------
+		// 긴 문자열 데이터를 원하는 길이로 잘라서 ArrayList에 담은 다음 출력하는 예제
+		// ArrayList를 생성할 때 저장할 요소의 개수를 고려해 실제 저장할 개수보다 약간 여유있는 크기로 하는 것이 좋다.
+		// 자동적으로 크기가 늘어나긴 하지만 처리시간이 소요되기때문!
+		final int LIMIT = 10; // 자르려는 글자의 개수를 지정
+		String source = "0123456789abcdefghijABCDEFGHIJ!@#$%^&*()ZZZ";
+		int length = source.length();
+		
+		List list = new ArrayList (length/LIMIT + 10); // 크기를 약간 여유 있게 잡는다.
+		
+		for(int i = 0; i < length; i += LIMIT) {
+			if(i + LIMIT < length) {
+				list.add(source.substring(i, i+LIMIT));
+				System.out.println(list);
+			} else {
+				list.add(source.substring(i));
+				System.out.println(list + " else");
+			}
+			
+		}
+			
 		
 		
 	}
