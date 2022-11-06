@@ -1,4 +1,4 @@
-package javaExample;
+package date_time_formatting;
 
 import java.time.LocalDate;
 import java.time.Period;

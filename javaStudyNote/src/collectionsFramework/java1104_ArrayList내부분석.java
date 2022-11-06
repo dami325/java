@@ -1,4 +1,4 @@
-package javaExample;
+package collectionsFramework;
 
 public class java1104_ArrayList내부분석 {
 		// Vector클래스의 실제코드를 바탕으로 재구성
