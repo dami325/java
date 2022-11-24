@@ -3,7 +3,7 @@ package collectionsFramework;
 import java.beans.Expression;
 import java.util.Stack;
 
-public class java221107_ExpValidCheck {
+public class java1107_ExpValidCheck {
 
 	/*
 	 * 입력한 수식의 괄호가 올바른지를 체크하는 예제.

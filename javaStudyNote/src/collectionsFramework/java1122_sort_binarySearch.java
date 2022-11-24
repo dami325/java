@@ -2,7 +2,7 @@ package collectionsFramework;
 
 import java.util.Arrays;
 
-public class java221122_sort_binarySearch {
+public class java1122_sort_binarySearch {
 	
 	public static void main(String[] args) {
 		

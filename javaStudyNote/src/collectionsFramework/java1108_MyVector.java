@@ -2,15 +2,15 @@ package collectionsFramework;
 
 import java.util.Iterator;
 
-public class java221108_MyVector extends java1104_ArrayList내부분석 implements Iterator {
+public class java1108_MyVector extends java1104_ArrayList2 implements Iterator {
 	int cursor = 0; // 앞으로 읽어올 요소의 위치를 저장(index)
 	int lastRet = -1; // 마지막으로 읽어온 요소의 위치를 저장(index)
 	
-	public java221108_MyVector(int capacity) {
+	public java1108_MyVector(int capacity) {
 		super(capacity);
 	}
 	
-	public java221108_MyVector() {
+	public java1108_MyVector() {
 		this(10);
 	}
 	

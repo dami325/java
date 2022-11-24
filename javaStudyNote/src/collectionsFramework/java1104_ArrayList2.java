@@ -1,12 +1,12 @@
 package collectionsFramework;
 
-public class java1104_ArrayList내부분석 {
+public class java1104_ArrayList2 {
 		// Vector클래스의 실제코드를 바탕으로 재구성
 		Object[] data = null; // 객체를 담기 위한 객체배열을 선언한다.
 		int capacity = 0; // 용량
 		int size = 0;     // 크기
 		
-		public java1104_ArrayList내부분석(int capacity) {
+		public java1104_ArrayList2(int capacity) {
 			if(capacity < 0) {
 				throw new IllegalArgumentException("유효하지 않은 값입니다. : " + capacity);
 			}
@@ -14,7 +14,7 @@ public class java1104_ArrayList내부분석 {
 			data = new Object[capacity];
 		}
 		
-		public java1104_ArrayList내부분석() {
+		public java1104_ArrayList2() {
 			this(10);	// 크기를 지정하지않으면 크기를 10으로 한다.
 		}
 		

@@ -2,7 +2,7 @@ package collectionsFramework;
 
 import java.util.Arrays;
 
-public class java221122_fill_setAll {
+public class java1122_fill_setAll {
 
 	public static void main(String[] args) {
 		

@@ -3,7 +3,7 @@ package collectionsFramework;
 import java.util.Stack;
 
 //스택과 큐의 활용 예제 ( 웹 브라우저의 뒤로, 앞으로 버튼의 기능을 구현)
-public class java221106_StackEx1 {
+public class java1106_StackEx1 {
 	public static Stack back = new Stack();
 	public static Stack forward = new Stack();
 	

@@ -11,7 +11,7 @@ import java.util.Scanner;
 	대부분의 프로그램이 최근에 열어 본 문서들의 목록을 보여주는 기능을 제공하는데
 	이 기능도 예제를 이용하면 쉽게 구현 가능
  * */
-public class java221107_QueueEx1 {
+public class java1107_QueueEx1 {
 	static Queue q = new LinkedList();
 	static final int MAX_SIZE = 5;		// Queue에 최대 5개까지만 저장되도록 한다.
 	

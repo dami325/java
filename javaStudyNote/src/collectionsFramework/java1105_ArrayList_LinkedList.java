@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class java1105_ArrayList와LinkedList접근시간테스트 {
+public class java1105_ArrayList_LinkedList {
 
 	public static void main(String[] args) {
 		

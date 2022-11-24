@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Vector;
 
 //Stack은 컬렉션 프레임웤 이전부터 존재하던 것이기 때문에 Vector 상속
-public class java221106_Stack extends Vector { 
+public class java1106_Stack extends Vector { 
 	
 	public Object push(Object item) {
 		addElement(item);

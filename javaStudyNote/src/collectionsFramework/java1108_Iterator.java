@@ -3,7 +3,7 @@ package collectionsFramework;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class java221108_Iterator {
+public class java1108_Iterator {
 
 	public static void main(String[] args) {
 		ArrayList original = new ArrayList(10);
