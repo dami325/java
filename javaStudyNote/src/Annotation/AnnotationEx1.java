@@ -13,8 +13,12 @@ public class AnnotationEx1 {
 		// AnnotationEx5의 Class객체를 얻는다.
 		Class<AnnotationEx1> cls = AnnotationEx1.class;
 		
+		// 클래스 객체가 가지고 있는 getAnnotation()
 		TestInfo anno = (TestInfo)cls.getAnnotation(TestInfo.class);
+		// 정보를 얻고자 하는 애너테이션 지정
 		System.out.println(anno.testedBy());
+		
+		
 		System.out.println(anno.testDate().yymmdd());
 		System.out.println(anno.testDate().hhmmss());
 		for(String str : anno.testTools()) {
